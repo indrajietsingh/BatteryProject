@@ -8,6 +8,7 @@ import {
 import TerminationPointOptions from './components/TerminationPointOptions';
 import HarnessLengthOptions from './components/HarnessLengthOptions';
 import NexsysConnectorColorOptions from './components/NexsysConnectorColorOptions';
+import VC_L_CHRG_CONN_LENGTH from './components/VC_L_CHRG_CONN_LENGTH';
 const App = () => {
   return (
     <>
@@ -16,12 +17,12 @@ const App = () => {
         <Player />
       </div>
       <PortalToElement to="tk-treble-form" strict={true}>
-     
-        <LidOptions />
-        <TerminationPointOptions/>
-        <HarnessLengthOptions/>
-        <NexsysConnectorColorOptions/>
-      </PortalToElement>     
+     <LidOptions />
+    <TerminationPointOptions/>
+    <HarnessLengthOptions/>
+    <NexsysConnectorColorOptions/>
+    <VC_L_CHRG_CONN_LENGTH/>
+    </PortalToElement>     
     </ThreekitProvider>
     
     </>
