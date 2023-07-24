@@ -1,4 +1,4 @@
-import { useAttribute } from '@threekit-tools/treble';
+import {useAttribute } from '@threekit-tools/treble';
 
 const LidOptions = () => {
   const [Lid, setLid] = useAttribute('Lid');
