@@ -18,7 +18,7 @@
   },
   "main": "src/index.js",
   "scripts": {
-    "start": "treble-scripts start",
+    "start": "yar",
     "build": "treble-scripts build",
     "format": "prettier --write ./src",
     "lint": "eslint ./src",
