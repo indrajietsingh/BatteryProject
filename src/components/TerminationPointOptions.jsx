@@ -11,8 +11,9 @@ const TerminationPointOptions = () => {
             <button
               key={i}
               type="button"
+              className={option.assetId === H_CONN_COLOR.value.assetId ? 'selectedbutton' : 'buttontext'}
               onClick={() => setVC_L_CHG_TERM_POS(option.assetId)}
-              selected={option.assetId === H_CONN_COLOR.value.assetId}
+              // selected={option.assetId === H_CONN_COLOR.value.assetId}
             >
              <div>{option.label} </div>
             </button>

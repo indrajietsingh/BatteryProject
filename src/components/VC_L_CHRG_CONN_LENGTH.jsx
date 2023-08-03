@@ -10,8 +10,9 @@ const VC_L_CHRG_CONN_LENGTH = () => {
             <button
               key={i}
               type="button"
-              onClick={() => setVC_L_CHRG_CONN_LENGTH(option.assetId)? 'selectedbutton':'buttontext'}
-              selected={option.assetId ===VC_L_CHRG_CONN_LENGTH.value.assetId}
+              className={option.assetId === VC_L_CHRG_CONN_LENGTH.value.assetId ? 'selectedbutton' : 'buttontext'}
+              onClick={() => setVC_L_CHRG_CONN_LENGTH(option.assetId)}
+              // selected={option.assetId ===VC_L_CHRG_CONN_LENGTH.value.assetId}
             >
              <div>{option.label} </div>
             </button>

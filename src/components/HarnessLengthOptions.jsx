@@ -11,9 +11,9 @@ const HarnessLengthOptions = () => {
             <button
               key={i}
               type="button"
-              
-              onClick={() => setVC_L_CHG_TERM_POS(option.assetId)? 'selectedbutton':'buttontext'}
-              selected={option.assetId === VC_L_CHG_TERM_POS.value.assetId}
+              className={option.assetId ===VC_L_CHG_TERM_POS.value.assetId ? 'selectedbutton' : 'buttontext'}
+              onClick={() => setVC_L_CHG_TERM_POS(option.assetId)}
+              // selected={option.assetId === VC_L_CHG_TERM_POS.value.assetId}
             >
              <div>{option.label} </div>
             </button>
