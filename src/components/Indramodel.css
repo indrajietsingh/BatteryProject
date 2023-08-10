@@ -1,4 +1,4 @@
-.modelbutton{
+.modelbutton-model{
 
     
     display: inline-block;
@@ -20,7 +20,7 @@
 
 }
 
-.modelbutton-selected{
+.modelbutton-selected-model{
     
     display: inline-block;
     outline: none;

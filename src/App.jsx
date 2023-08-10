@@ -3,11 +3,11 @@ import {
   Player,
   PortalToElement,
   FlatForm,} from '@threekit-tools/treble';
-import Indramodel from './components/indramodel';
  import SphereRadius from './components/SphereRadius';
 import IndraTestColor from './components/IndraTestColor';
 import IndraHeight from './components/Height';
 import IndraWidth from './components/Width';
+import Indramodel from './components/Indramodel';
 const App = () => {
   return (
     <>
@@ -17,10 +17,10 @@ const App = () => {
       </div>
       <PortalToElement to="tk-treble-form" strict={true}>
      <Indramodel/>
-     <IndraTestColor/>
-     <SphereRadius/>
-     <IndraHeight/>
-      <IndraWidth/> 
+     <IndraTestColor/> 
+      <SphereRadius/> 
+      <IndraHeight/>
+      <IndraWidth/>  
     </PortalToElement>     
     </ThreekitProvider>
     
