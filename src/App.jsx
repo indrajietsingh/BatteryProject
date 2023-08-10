@@ -2,27 +2,25 @@ import {
   ThreekitProvider,
   Player,
   PortalToElement,
-  FlatForm,
-} from '@threekit-tools/treble';
- import LidOptions from './components/LidOptions';
-import TerminationPointOptions from './components/TerminationPointOptions';
-import HarnessLengthOptions from './components/HarnessLengthOptions';
-import NexsysConnectorColorOptions from './components/NexsysConnectorColorOptions';
-import VC_L_CHRG_CONN_LENGTH from './components/VC_L_CHRG_CONN_LENGTH';
-
+  FlatForm,} from '@threekit-tools/treble';
+import Indramodel from './components/indramodel';
+ import SphereRadius from './components/SphereRadius';
+import IndraTestColor from './components/IndraTestColor';
+import IndraHeight from './components/Height';
+import IndraWidth from './components/Width';
 const App = () => {
   return (
     <>
     <ThreekitProvider>
       <div className="tk-treble-player">
-        <Player />
+        <Player/>
       </div>
       <PortalToElement to="tk-treble-form" strict={true}>
-     <LidOptions />
-    <TerminationPointOptions/>
-    <HarnessLengthOptions/>
-    <NexsysConnectorColorOptions/>
-    <VC_L_CHRG_CONN_LENGTH/>
+     <Indramodel/>
+     <IndraTestColor/>
+     <SphereRadius/>
+     <IndraHeight/>
+      <IndraWidth/> 
     </PortalToElement>     
     </ThreekitProvider>
     
