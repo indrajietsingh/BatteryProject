@@ -15,11 +15,14 @@ const SphereRadius = () => {
     <>
       <div className='header'>
         <h2>{sphereradius?.label}</h2>
+        <div className='inputdiv'>
         {(sphereradius?.label) ?
+        
           <input className='radiusInput' min={sphereradius?.min} max={sphereradius?.max} value={inputValue} type="number" onChange={handleInputFunction}></input> : ""
+         
         }
       </div>
-
+      </div>
     </>
   );
 };

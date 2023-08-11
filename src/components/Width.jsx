@@ -14,10 +14,11 @@ const IndraWidth = () => {
     <>
       <div className='header'>
         <h2>{indrawidth?.label}</h2>
+        <div className='inputdiv'>
        {(indrawidth)? <input className='radiusInput' min={indrawidth?.min} max={indrawidth?.max} value={inputValue} type="number" onChange={handleSubmitFunction}
         ></input> :null}     
       </div>
-
+      </div>
     </>
   );
 };

@@ -1,31 +1,14 @@
-import {
-  ThreekitProvider,
-  Player,
-  PortalToElement,
-  FlatForm,} from '@threekit-tools/treble';
- import SphereRadius from './components/SphereRadius';
-import IndraTestColor from './components/IndraTestColor';
-import IndraHeight from './components/Height';
-import IndraWidth from './components/Width';
-import Indramodel from './components/Indramodel';
+import { ThreekitProvider } from '@threekit-tools/treble';
+import './index.css'
+import Main from './components/Main';
+
 const App = () => {
   return (
     <>
-    <ThreekitProvider>
-      <div className="tk-treble-player">
-        <Player/>
-      </div>
-      <PortalToElement to="tk-treble-form" strict={true}>
-     <Indramodel/>
-     <IndraTestColor/> 
-      <SphereRadius/> 
-      <IndraHeight/>
-      <IndraWidth/>  
-    </PortalToElement>     
-    </ThreekitProvider>
-    
+      <ThreekitProvider>
+        <Main />
+      </ThreekitProvider>
     </>
   );
 };
-
 export default App;

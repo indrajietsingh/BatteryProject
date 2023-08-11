@@ -13,11 +13,12 @@ return (
   <>
     <div className='header'>
       <h2>{indraheight?.label}</h2>
+      <div className='inputdiv'>
       {(indraheight?.label) ?
         <input className='radiusInput' min={indraheight?.min} max={indraheight?.max} value={inputvalue} type="number" onChange={handlechangeFunction}></input> : ""
       }
     </div>
-
+    </div>
   </>
   );
 };

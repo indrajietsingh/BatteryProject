@@ -6,13 +6,13 @@
     cursor: pointer;
     font-weight: 600;
     border-radius: 3px;
-    padding: 12px 24px;
+    padding: 12px;
     border: 0;
     color: #fff;
     background: #ff5000;
     line-height: 1.15;
     margin: 0 10px;
-    font-size: 16px;
+    font-size: 12x;
     :hover {
         transition: all .1s ease;
         /* box-shadow: 0 0 0 0 #fff, 0 0 0 3px #1de9b6; */
@@ -27,13 +27,13 @@
     cursor: pointer;
     font-weight: 600;
     border-radius: 3px;
-    padding: 12px 24px;
+    padding: 12px;
     border: 0;
     color: #fff;
     background: #000a47;
     line-height: 1.15;
     margin: 0 10px;
-    font-size: 16px;
+    font-size: 12px;
     :hover {
         transition: all .1s ease;
         /* box-shadow: 0 0 0 0 #fff, 0 0 0 3px #1de9b6; */
@@ -44,3 +44,4 @@
 .button{
     display: flex;
 }
+

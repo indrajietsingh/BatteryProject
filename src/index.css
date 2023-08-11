@@ -4,7 +4,7 @@
 
 
 
-
+/* 
 .tk-treble-app {
   display: grid;
   grid-template-columns: auto 400px;
@@ -17,6 +17,56 @@
   height: 100vh;
   position: sticky;
   top: 0;
+} */
+
+/* /--------------------------Player Logic starts */
+.OuterContainer {
+  max-width: 100%;
+  width: 100%;
+  position: relative;
+  float: left;
+  font-family: 'Cantarell', sans-serif !important;
 }
 
+@media only screen and (min-width: 768px) {
+  .OuterContainer {
+    display: flex;
+  }
+}
 
+.StickyContainerItem {
+  display: inline-block;
+  box-sizing: border-box;
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 65%;
+  height: 548px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .StickyContainerItem {
+    width: 100%;
+    height: 568px;
+  }
+}
+
+.ContainerItem {
+  display: inline-block;
+  width: 35%;
+  box-sizing: border-box;
+  /* position: relative; */
+  /* overflow: auto; */
+  height: 548px;
+  background: #fff;
+  padding: 0 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .ContainerItem {
+    width: 100%;
+    height: 348px;
+  }
+}
+
+/* /--------------------------Player Logic ends */
