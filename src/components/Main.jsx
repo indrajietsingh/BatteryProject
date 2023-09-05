@@ -5,7 +5,9 @@ import { Player} from '@threekit-tools/treble';
   import IndraWidth from './Width';
   import Indramodel from './Indramodel';
   import '../index.css'
+
   import { useState, useEffect } from 'react';
+import Test from './Test';
   
   
   function getWindowDimensions() {
@@ -53,6 +55,7 @@ import { Player} from '@threekit-tools/treble';
                 <SphereRadius />
                 <IndraHeight />
                 <IndraWidth />
+                
               {/* </PortalToElement> */}
               </div> 
           </div>

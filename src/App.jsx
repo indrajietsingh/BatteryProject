@@ -7,7 +7,9 @@ const App = () => {
     <>
       <ThreekitProvider>
         <Main />
+        
       </ThreekitProvider>
+      
     </>
   );
 };
